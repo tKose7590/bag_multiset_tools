@@ -1,0 +1,14 @@
+[project]
+name = "bag-multiset-tools"
+version = "0.1.0"
+description = "Python bag/multiset implementation with insert, remove, and count methods"
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
